@@ -37,12 +37,7 @@ const USER_CONFIG = {
 
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
-
-共推送 {{need_post_num.DATA}} 人
-成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
-成功用户: {{success_post_ids.DATA}}
-失败用户: {{fail_post_ids.DATA}}',
+  CALLBACK_TEMPLATE_ID: 'nY-VNcZ1c8AvqG6MGOPKw5ruRmRi2s95_PSydMcnLKo',
   
   CALLBACK_USERS: [
     {
