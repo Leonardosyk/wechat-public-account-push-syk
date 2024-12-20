@@ -12,9 +12,10 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '60b682f6da6643955b86eb2894819410',
-
-  PROVINCE: '江苏省',
-  CITY: '苏州',
+  weather_key : 'c0ec50fe4d8f4469a69dfda8b5fd16bc',
+  region = '伦敦'
+  // PROVINCE: '江苏省',
+  // CITY: '苏州',
 
   USERS: [
     {
