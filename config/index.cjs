@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'owx_m6-0T3NanmceZTw3DU1xCYJI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '🗓️{{date.DATA}} 城市：{{city.DATA}} 天气☁️：{{weather.DATA}} 温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 风向：{{wind_direction.DATA}} 风级：{{wind_scale.DATA}} 温馨提示：{{notice.DATA}} 值得纪念：{{birthday_message.DATA}} 💗：{{earthy_love_words.DATA}} 每日一句😋 中文：{{note_ch.DATA}} English：{{note_en.DATA}} 和{{poetry_author.DATA}}约个会：{{poetry_content.DATA}}',
+      useTemplateId: 'AQ8PVw0Z3vP1D-9KuDzc5u1dEAeAd1tSaGH-JEPL70A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-25',
       
@@ -37,8 +37,13 @@ const USER_CONFIG = {
 
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'AQ8PVw0Z3vP1D-9KuDzc5u1dEAeAd1tSaGH-JEPL70A',
+  CALLBACK_TEMPLATE_ID: '服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}}
 
+共推送 {{need_post_num.DATA}} 人
+成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
+成功用户: {{success_post_ids.DATA}}
+失败用户: {{fail_post_ids.DATA}}',
+  
   CALLBACK_USERS: [
     {
       name: 'syk',
